@@ -1,0 +1,110 @@
+body {
+    background-image: url(../css/fondo.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.titulo{
+    text-align: center;
+    text-decoration:underline;
+}
+
+.tabla{
+    border-style: none;
+    padding: 2px;
+    /* border-color: #fff; */
+    border-radius: 1px;
+    text-align: left;
+}
+
+.info{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 20px 0px 300px
+}
+
+.info2{
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 300px
+}
+
+ #foto{
+    width: 200px;
+ }
+
+ #estudios{
+text-align: center;
+ }
+
+ .tablaE{
+    border-style: none;
+    padding: 10x;
+    /* border-color: #fff; */
+    border-radius: 1px;
+    text-align: left;
+}
+.info3{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 700px
+}
+#idioma{
+    text-align: center;  
+}
+.idiomas{
+    border-style: none;
+    padding: 10x;
+    border-color: #fff;
+    border-radius: 1px;
+    text-align: left;
+}
+#compu{
+    text-align: center;  
+}
+.computacion{
+    border-style: none;
+    padding: 10x;
+    /* border-color: #fff; */
+    border-radius: 1px;
+    text-align: left;
+}
+#exp{
+    text-align: center;  
+}
+.expL{
+    border-style: none;
+    padding: 10x;
+    /* border-color: #fff; */
+    border-radius: 1px;
+    text-align: left;
+}
+#ap{
+    text-align: center;
+}
+.lista{
+text-align: left;
+margin-left: 850px;
+}
+
+#yo{
+    text-align: center;
+}
+#descrip{
+    text-align: center;
+    padding: 0px;
+
+}
+th,td{
+    padding: 5px;
+}
+ol{
+    list-style: circle;
+}
+li{
+    padding: 2px;
+}
