@@ -9,6 +9,9 @@ body {
     text-align: center;
     text-decoration:underline;
 }
+#infop{
+    margin-left: 40vw; 
+}
 
 .tabla{
     border-style: none;
@@ -16,24 +19,36 @@ body {
     /* border-color: #fff; */
     border-radius: 1px;
     text-align: left;
+    float: left;
+    margin-left: 15vw;
 }
-
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#contenedor {
+    width: 100%; /* Ajusta según sea necesario */
+    margin: 0 auto; /* Centra el contenedor */
+}
 .info{
     display: inline-block;
     vertical-align: top;
-    margin: 0px 20px 0px 300px
+    margin: 0px 5vw 0px 15vw
 }
 
 .info2{
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    margin-left: 300px
+    margin-left: 15vw
 }
 
- #foto{
-    width: 200px;
- }
+#foto {
+    width: 20%;
+    float: left; /* Alinea la foto a la izquierda */
+    margin-right: 5vw; /* Agrega un margen entre la foto y la tabla */
+}
 
  #estudios{
 text-align: center;
@@ -51,7 +66,7 @@ text-align: center;
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    margin-left: 700px
+    margin-left: 30vw
 }
 #idioma{
     text-align: center;  
@@ -88,7 +103,7 @@ text-align: center;
 }
 .lista{
 text-align: left;
-margin-left: 850px;
+margin-left: 40vw;
 }
 
 #yo{
@@ -98,6 +113,31 @@ margin-left: 850px;
     text-align: center;
     padding: 0px;
 
+}
+th,td{
+    padding: 5px;
+}
+ol{
+    list-style: circle;
+}
+li{
+    padding: 2px;
+}
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    #foto {
+        width: 100%;
+    }
+    .info,
+    .info2,
+    .info3,
+    .lista {
+        margin-left: 0;
+    }
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centra el contenedor */
 }
 th,td{
     padding: 5px;
