@@ -47,7 +47,8 @@ body {
 }
 
 #foto {
-    width: 20%;
+    height: 40px;
+    width: 80px;
     float: left; /* Alinea la foto a la izquierda */
     margin-right: 5vw; /* Agrega un margen entre la foto y la tabla */
 }
