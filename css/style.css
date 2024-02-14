@@ -44,10 +44,10 @@ body {
     width: 240px;
     float: left; /* Alinea la foto a la izquierda */
     margin-right: 20px; /* Agrega un margen entre la foto y la tabla */
-    margin-left: 80px;
+    margin-left: 120px;
 }
 .tabla {
-    margin-left: 80px; /* Ajusta el margen izquierdo para la tabla */
+    margin-left: 120px; /* Ajusta el margen izquierdo para la tabla */
     float: left; /* Hace que la tabla se alinee a la izquierda */
 }
 
